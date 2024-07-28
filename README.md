@@ -43,3 +43,28 @@ Calculates the final temperature (T2).
 function calculateT2(P1, V1, n1, T1, P2, V2, n2)
 ```
 
+## Using:
+```javascript
+// Example usage:
+const P1 = 1; // Initial pressure
+const V1 = 1; // Initial volume
+const n1 = 1; // Initial number of moles
+const T1 = 300; // Initial temperature in Kelvin
+const P2 = 2; // Final pressure
+const V2 = 1; // Final volume
+const n2 = 1; // Final number of moles
+const T2 = 600; // Final temperature in Kelvin
+
+console.log("Calculated V2:", calculateV2(P1, V1, n1, T1, P2, n2, T2)); // Calculate and print V2
+console.log("Calculated P2:", calculateP2(P1, V1, n1, T1, V2, n2, T2)); // Calculate and print P2
+console.log("Calculated T2:", calculateT2(P1, V1, n1, T1, P2, V2, n2)); // Calculate and print T2
+console.log("Calculated T1:", calculateT1(P1, V1, n1, P2, V2, n2, T2)); // Calculate and print T1
+```
+## Installation
+To use these functions, simply include them in your JavaScript project. No additional installation is required.
+
+##Contributing
+
+Contributions are welcome! Please feel free to submit a pull request or open an issue.
+
+
