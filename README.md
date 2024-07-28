@@ -19,7 +19,7 @@ This project includes functions to calculate the unknown variable given two sets
 
 \[ \frac{P_1 V_1}{T_1} = \frac{P_2 V_2}{T_2} \cdot \frac{n_2}{n_1} \]
 
-## Functions
+## Some examples of using functions:
 
 ### calculateV2
 
@@ -27,5 +27,19 @@ Calculates the final volume (\( V_2 \)).
 
 ```javascript
 function calculateV2(P1, V1, n1, T1, P2, n2, T2)
+```
 
+### calculateP2
+
+Calculates the final pressure (P2).
+```javascript
+function calculateP2(P1, V1, n1, T1, V2, n2, T2)
+```
+
+### calculateT2
+
+Calculates the final temperature (T2).
+```javascript
+function calculateT2(P1, V1, n1, T1, P2, V2, n2)
+```
 
