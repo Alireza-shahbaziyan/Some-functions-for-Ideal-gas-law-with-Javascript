@@ -17,7 +17,7 @@ where:
 
 This project includes functions to calculate the unknown variable given two sets of conditions. The calculations are performed using the combined gas law:
 
-\[ \frac{P_1 V_1}{T_1} = \frac{P_2 V_2}{T_2} \cdot \frac{n_2}{n_1} \]
+\[ PV = nRT \]
 
 ## Some examples of using functions:
 
